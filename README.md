@@ -44,7 +44,7 @@ type. Overall, it was a fun experience working on revamping the website while so
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Cecilia Truong]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
