@@ -26,10 +26,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ceciliatruong/web102_prework/blob/main/assets/web102prework.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ...  LiceCap!
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -37,7 +37,6 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
 I mainly had challenges with figuring out how to make a sticky navigation bar since it's been a while. I read a lot of guides on flexbox
 and navigation bar creations to help me build my navigation bar!
 This was also my first time implementing a search function, so I had to read up on the documentations for the "search" implementation
