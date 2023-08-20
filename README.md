@@ -1,24 +1,27 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Pompompurin's Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Cecilia Truong
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Pompompurin's Crowdfunding is a website for the company Pompompurin Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
-
+* [x] The Our Games section has a search bar that will display games with the matching name.
+* [x] Stylized the website based off of popular Sanrio character, Pompompurin.
+* [x] Added a sticky navigation bar that allows user to traverse between games and statistics section. 
+* [x] Made the games filtering buttons more animated when user interacts with it.
+* [x] Centered all of the texts to make them appear important.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
@@ -35,6 +38,10 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+I mainly had challenges with figuring out how to make a sticky navigation bar since it's been a while. I read a lot of guides on flexbox
+and navigation bar creations to help me build my navigation bar!
+This was also my first time implementing a search function, so I had to read up on the documentations for the "search" implementation
+type. Overall, it was a fun experience working on revamping the website while solving for the secret codes.
 
 ## License
 

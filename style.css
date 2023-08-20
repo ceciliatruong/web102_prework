@@ -1,30 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #dfdad3;
+    color:saddlebrown;
 }
 
 #tentacles {
-    width: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
     display: flex;
-    background-color: lightblue;
+    justify-content: space-between;
+    /* position: sticky; */
+    background-color: palegoldenrod;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: -10px;
+    height: 70px;
+
+}
+.title {
+    display: flex;
+    padding: 1%;
+    text-align: center; /* Center the content horizontally */
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+    padding: 1%;
+    column-gap: 50px;
+    margin-right: 50px;
+    justify-content: space-between; /* Align items to the right */
+}
+#nav-games, #nav-stats, .a {
+    text-decoration: none;
+    color: inherit;
 }
 
+#nav-games:hover, #nav-stats:hover, #nav-games:active, #nav-stats:active, .a:hover, .a:active {
+    text-decoration: none;
+    color: ivory;
+}
+.wrapper {
+    /* -webkit-flex-flow: row wrap; */
+    flex-flow: row wrap;
+   /* font-weight: bold;*/
+    /*text-align: center;*/
+    position: relative;
+    top: 112px;
+}
+input[type=search] {
+    font-family: 'Cabin';
+    color: saddlebrown;
+    background: #efece9;
+    float: center;
+    padding: 0.89%;
+    margin: 0.89%;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+}
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px palegoldenrod;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: 	#efece9;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -49,7 +107,7 @@ body {
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: #efece9;
     padding: 1%;
     margin: 1%;
     width: 300px;
@@ -59,17 +117,22 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px palegoldenrod;
 }
 
 #button-container {
     text-align: center;
 }
 
-button {
+.game-button {
+    background-color: #efece9;
+    color: saddlebrown;
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+.game-button:active, .game-button:hover {
+    background-color: palegoldenrod;
 }
